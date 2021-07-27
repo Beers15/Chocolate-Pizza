@@ -1,0 +1,87 @@
+#page-wrapper {
+  max-width: 900px;
+  min-width: 900px;
+  margin: auto;
+}
+
+#title-img {
+  position: relative;
+  top: 16px;
+}
+
+#title {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 47px;
+  font-weight: 500;
+  padding-left: 9px;
+}
+
+#first-title-letter {
+  letter-spacing: -2.5px;
+}
+
+#last-title-letter {
+  position:relative;
+  right: 3px;
+}
+
+.title-cap-letter {
+  position: relative;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  top:-2px;
+}
+
+#header {
+  padding-top: 15px;
+}
+
+#main-caption {
+  position: relative;
+  top: -12px;
+  padding-left: 52px;
+  font-stretch: semi-condensed;
+}
+
+.social-icon {
+  position: relative;
+  left: 468px;
+}
+
+.social-icon:nth-last-child(4) {
+  margin-left: 10px;
+}
+
+.light-grey-text {
+  color: rgb(227, 230, 228)
+}
+
+.slashed {
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    lightgrey 1px,
+    transparent 3px,
+    transparent 0px
+  );
+  height: 12px;
+  border: transparent;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  letter-spacing: -1px;
+  font-stretch: semi-condensed;
+  margin-top: 40px;
+}
+
+.alt-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: rgb(99, 99, 99);
+  letter-spacing: .01px;
+  vertical-align: top;
+}
