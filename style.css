@@ -2,9 +2,10 @@
   max-width: 900px;
   min-width: 900px;
   margin: auto;
+  font-size: 8px;
 }
 
-#title-img {
+#title-icon {
   position: relative;
   top: 16px;
 }
@@ -41,12 +42,12 @@
   position: relative;
   top: -12px;
   padding-left: 52px;
-  font-stretch: semi-condensed;
+  font-size: 11px !important;
 }
 
 .social-icon {
   position: relative;
-  left: 468px;
+  left: 482px;
 }
 
 .social-icon:nth-last-child(4) {
@@ -54,34 +55,108 @@
 }
 
 .light-grey-text {
-  color: rgb(227, 230, 228)
+  color: rgb(187, 192, 189) !important;
 }
 
-.slashed {
+.slashed-hr {
   background: repeating-linear-gradient(
     45deg,
     transparent,
-    lightgrey 1px,
+    rgb(179, 182, 181) 1px,
     transparent 3px,
     transparent 0px
   );
-  height: 12px;
+  height: 13px;
   border: transparent;
+  margin-top: 22px;
 }
 
 h1 {
   font-family: Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 900;
   letter-spacing: -1px;
   font-stretch: semi-condensed;
-  margin-top: 40px;
+  margin: 50px 0 4px 0;
+  transform: scaleY(1.5);
 }
 
 .alt-text {
   font-family: Helvetica, sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
+  font-stretch: semi-condensed;
   font-weight: lighter;
+  text-transform: uppercase;
   color: rgb(99, 99, 99);
   letter-spacing: .01px;
+  margin: 0 0 30px 0;
   vertical-align: top;
+  font-size: 14px;
+}
+
+#print-option {
+  position: relative;
+  left: 638px;
+}
+#printer-icon {
+  margin-right: 2px;
+}
+
+p.instruction-txt {
+  font-size: 20px;
+  line-height: 130%;
+  text-indent: 35px;
+  color:rgb(81, 83, 82);
+}
+
+#notecard {
+  position: relative;
+  line-height: 32px;
+  margin-top: 30px;
+}
+
+#left-list {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+
+#right-list {
+  position: absolute;
+  top: 25px;
+  right: 80px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  max-width: 360px;
+  font-size: 20px;
+  font-family: Bradley Hand, cursive;
+  word-wrap:break-word;
+  color: rgb(111, 112, 77)
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.list-label {
+  padding-left: 6px;
+}
+
+.checkbox {
+  position: relative;
+  top: 2px;
+  height: 16px;
+  width: 18px;
+}
+
+
+.checkbox-checked {
+  position: relative;
+  top: 4px;
+  height: 20px;
+  width: 18px;
 }
